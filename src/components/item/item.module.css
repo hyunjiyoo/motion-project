@@ -1,0 +1,52 @@
+@value makerGradient, makerIvory, makerWhite, makerRed from '../../common/colors.css';
+
+.itemContainer {
+  background: makerGradient;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.closeBtn {
+  font-size: 0.5rem;
+  align-self: center;
+  padding: 0;
+  margin-right: 1em;
+  background: 0%;
+  border: 0;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  opacity: 0.8;
+}
+
+.mediaContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.img,
+.video {
+  width: 21em;
+  height: 10em;
+}
+
+.title {
+  color: makerIvory;
+  font-weight: bold;
+  padding: 1em 0.5em;
+}
+
+.textContainer {
+  padding-bottom: 1em;
+}
+
+.contents {
+  color: makerWhite;
+  margin-left: 0.5em;
+}
+
+.checkbox {
+  margin-left: 1.5em;
+}

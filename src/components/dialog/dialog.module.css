@@ -1,0 +1,66 @@
+@value makerWhite, makerRed, makerGrey, makerLightGrey, makerIvory from '../../common/colors.css';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    rgba(29, 29, 29, 0.95) 0%,
+    rgba(60, 60, 60, 0.95) 47%,
+    rgba(75, 75, 75, 0.95) 100%
+  );
+  color: makerIvory;
+  border-radius: 0.3rem;
+  width: 30%;
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+  padding: 0.4rem 0.25rem;
+}
+
+.closeBtn {
+  font-size: 0.5rem;
+  align-self: end;
+  padding: 0;
+  background: 0%;
+  border: 0;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  opacity: 0.8;
+}
+
+.titleSpan,
+.contentName {
+  font-size: 1rem;
+  color: makerIvory;
+  font-weight: bold;
+  margin-top: 0.8em;
+}
+
+.titleInput,
+.contentInput,
+.contentTextarea {
+  background: makerLightGrey;
+  outline: 0;
+  color: makerWhite;
+  font-size: 1rem;
+}
+
+.addBtn {
+  margin-top: 1em;
+  font-size: 0.8rem;
+  font-weight: bold;
+  align-self: end;
+  background: makerRed;
+  color: makerWhite;
+  border: 0;
+  border-radius: 0.1em;
+  cursor: pointer;
+  padding: 0.3em 1.3em;
+}
+
+.addBtn:hover {
+  opacity: 0.8;
+}

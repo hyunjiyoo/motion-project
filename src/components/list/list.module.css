@@ -1,0 +1,11 @@
+@value makerDarkGrey from '../../common/colors.css';
+
+.container {
+  background-color: makerDarkGrey;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  padding: 2em 1.5em;
+  overflow-y: auto;
+}
