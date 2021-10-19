@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import styles from './item.module.css';
 
 const Item = memo(({ item, onDeleteItem }) => {
-  const { title, contents } = item;
+  const { id, title, contents } = item;
   
   const ImageItem = () => {
     return (
@@ -42,8 +42,8 @@ const Item = memo(({ item, onDeleteItem }) => {
     return (
       <div className={styles.textContainer}>
         <p className={styles.title}>{title}</p>
-        <input className={styles.checkbox} type="checkbox" id="task" />
-        <label htmlFor="task" className={styles.contents}>{contents}</label>
+        <input className={styles.checkbox} type="checkbox" id={id} />
+        <label htmlFor={id} className={styles.contents}>{contents}</label>
       </div>
     );
   }
