@@ -1,5 +1,7 @@
 import { memo, useRef } from 'react';
 import styles from './dialog.module.css';
+import { v4 as uuidv4 } from 'uuid';
+
 
 const Dialog = memo((props) => {
 
@@ -52,7 +54,7 @@ const Dialog = memo((props) => {
     const contents = isURLType() ? contentRef.current.value : bodyRef.current.value;
     const item = {
       type: props.type,
-      id: Date.now(),
+      id: uuidv4(),
       title,
       contents
     };
