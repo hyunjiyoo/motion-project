@@ -3,17 +3,15 @@
   style="
     display: flex;
     align-items: center;
+    margin-bottom: 1em;
     ">
   <img 
   alt="logo" 
   src="https://user-images.githubusercontent.com/23496927/138845175-e18b75ef-d4a6-467e-86ca-857c31a82821.png"
-  style="width: 50px; margin: 0 0.5em 1em 0;" />
+  style="width: 50px; margin-right: 0.5em;" />
   <a 
   href="https://motion-by-hj.netlify.app/" target="_blank"
-  style="
-  font-size: 1.2rem;
-  margin-bottom: 1em;"
-  >
+  style="font-size: 1.2rem;">
   Motion App URL
   </a>
 </div>
