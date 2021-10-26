@@ -2,13 +2,13 @@
 <div
   style="
     display: flex;
+    justify-contents: center;
     align-items: center;
-    margin-bottom: 14px;
     ">
   <img 
   alt="logo" 
   src="https://user-images.githubusercontent.com/23496927/138845175-e18b75ef-d4a6-467e-86ca-857c31a82821.png"
-  style="width: 50px; margin-right: 7px;" />
+  style="width: 50px;" />&nbsp;&nbsp;
   <a 
   href="https://motion-by-hj.netlify.app/" target="_blank"
   style="font-size: 18px;">
