@@ -36,6 +36,5 @@
 }
 
 .button:hover {
-  opacity: 95%;
   transform: scale(1.02);
 }
