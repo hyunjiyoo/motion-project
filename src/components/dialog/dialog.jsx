@@ -19,23 +19,19 @@ const Dialog = memo((props) => {
     }
   }
 
-  const RenderURL = () => {
-    return (
-      <>
-        <span className={styles.contentName}>URL</span>
-        <input ref={contentRef} className={styles.contentInput} type="text" name="content" />
-      </>
-    );
-  }
+  const RenderURL = () => (
+    <>
+      <span className={styles.contentName}>URL</span>
+      <input ref={contentRef} className={styles.contentInput} type="text" name="content" />
+    </>
+  );
 
-  const RenderBody = () => {
-    return (
-      <>
-        <span className={styles.contentName}>Body</span>
-        <textarea ref={bodyRef} className={styles.contentTextarea} name="content" rows="2"></textarea>
-      </>
-    );
-  }
+  const RenderBody = () => (
+    <>
+      <span className={styles.contentName}>Body</span>
+      <textarea ref={bodyRef} className={styles.contentTextarea} name="content" rows="2"></textarea>
+    </>
+  );
 
   const Contents = () => {
     if (isURLType()) {
@@ -45,7 +41,7 @@ const Dialog = memo((props) => {
     }
   }
 
-  const closeDialog = (event) => {
+  const closeDialog = () => {
     props.onCloseDialog();
   }
 
