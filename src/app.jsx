@@ -20,7 +20,7 @@ const App = () => {
     isDialog(false);
   }, []);
 
-  const onAddItem = (item) => {
+  const onAddItem = useCallback((item) => {
     setItems(items => {
       isDialog(false);
       const updated = {
@@ -29,7 +29,7 @@ const App = () => {
       };
       return updated;
     });
-  }
+  }, []);
 
   const onDeleteItem = useCallback((item) => {
     setItems(items => {
