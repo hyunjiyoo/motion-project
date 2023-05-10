@@ -13,11 +13,12 @@
 
 ### [Go to Motion App](https://motion-by-hj.netlify.app/)
 
-이미지, 비디오, 노트, Task 항목으로 나누어 각각의 타이틀과 컨텐츠를 다이얼로그 창에 작성하여 추가버튼을 누르면 해당 정보가 리스트업 되는 미니 프로젝트 입니다.
+## 작지만 강력한.. 멀티미디어 노트 어플리케이션 🚀
 
 <br/>
 
 # ✨ 데모 영상
+
 ![demo](https://user-images.githubusercontent.com/23496927/138843984-6a440592-25c6-4e3b-8701-fc46af5f7c78.gif)
 
 <br>
@@ -26,19 +27,14 @@
 
 ```sh
 $ git clone https://github.com/hyunjiyoo/motion-project.git .
-```
-
-```sh
-$ npm install
-```
-
-```sh
+$ yarn install
 $ yarn start
 ```
 
 <br>
 
 # 🕹 주요 기능
+
 - 아이템 추가
 - 아이템 삭제
 - 아이템 리스트업
@@ -47,51 +43,52 @@ $ yarn start
 <br>
 
 # 🏛 프로젝트 구조
+
 ```md
 motion-project
-│   
-│   package.json
-│   README.md
-│   
+│  
+│ package.json
+│ README.md
+│  
 └───public
-│   │   favicon.ico    
-│   │   index.html
-│   └───images
+│ │ favicon.ico  
+│ │ index.html
+│ └───images
 │
 └───src
-    │   app.jsx    
-    │   app.module.css
-    │   index.js    
-    │   index.module.css
-    │
-    └───common
-    │     │ colors.css
-    │     │ size.css
-    │
-    └───components
-        └───header
-        │   │ header.jsx
-        │   │ header.module.css     
-        │
-        └───footer
-        │   │ ...
-        │
-        └───list
-        │   │ list.jsx
-        │   │ list.module.css
-        │
-        └───item
-        │   │ ...
-        │   │
-        └───dialog
-            │ dialog.jsx
-            │ dialog.module.css
-
+│ app.jsx  
+ │ app.module.css
+│ index.js  
+ │ index.module.css
+│
+└───common
+│ │ colors.css
+│ │ size.css
+│
+└───components
+└───header
+│ │ header.jsx
+│ │ header.module.css  
+ │
+└───footer
+│ │ ...
+│
+└───list
+│ │ list.jsx
+│ │ list.module.css
+│
+└───item
+│ │ ...
+│ │
+└───dialog
+│ dialog.jsx
+│ dialog.module.css
 ```
 
 <br>
 
 # 🎯 개발 언어
+
 ![react-icon](https://user-images.githubusercontent.com/23496927/138889004-87fe48bc-2a62-4fd0-a155-fd6092ff1f07.png)
 
 ![postcss-icon](https://user-images.githubusercontent.com/23496927/138883710-f0d0cf3c-fc31-41c1-81c0-0b8326995696.png)
@@ -101,10 +98,8 @@ motion-project
 
 <br>
 
-
 # 🚀 배포
 
 ![nelify-icon](https://user-images.githubusercontent.com/23496927/138884047-c74d85b3-f0e6-4e82-a130-222216d18648.jpeg)
 
 [Netlify URL](https://www.netlify.com/)
-
